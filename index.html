@@ -3,31 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Previsão do Tempo</title>
+    <link rel="stylesheet" href="dist/style.css">
 </head>
-<body>
-    <header>
-        <div>
-            <div>
-                <img src="" alt="Logo do site">
-                <h1>Previsão do Tempo</h1>
-            </div>
-        </div>
-    </header>
-    <main>
-        <section> 
-            <div>
+    <body class="bg-sky-500/40">
+        <header>
                 <div>
-                    <img src="" alt="Ícone da lupa">
+                    <img src="" alt="Logo do site">
+                    <h1>Previsão do Tempo</h1>
                 </div>
-                <div>
-                    <p>Buscar cidade</p>
+        </header>
+        <main>
+            <section class="abaBusca"> 
+                <div class="busca">
+                    <div class="digitarBusca">
+                        <div class="lupaBusca">
+                            <img src="" alt="Ícone da lupa">
+                        </div>
+                        <div class="pesquisarBusca">
+                            <p>Buscar cidade</p>
+                        </div>
+                    </div>
+                    <div class="botaoBusca">
+                        <a href="">Buscar</a>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <a href="">Buscar</a>
-            </div>
-        </section>
-    </main>
-</body>
+            </section>
+            <section class="visualizar">
+                <div class="topoPagina">
+                    <div class="informacoesVisualizar">
+                        <div class="cidadeEstado">
+                            <div class="estado">
+                                <p>Estado,</p>
+                            </div>
+                            <div class="cidade">
+                                <p>Cidade</p>
+                            </div>
+                        </div>
+                        <div class="dia">
+                            <div class="diaSemana">
+                                <p>Dia da semana,</p>
+                            </div>
+                            <div class="diaMes">
+                                <p>Dia do Mes</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="botoesVisualizar">
+                        <div class="botaoEstatisticas">
+                            <a href="">Estatisticas</a>
+                        </div>
+                        <div class="botaoCompartilhar">
+                            <a href="">Compartilhar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="meioPagina">
+                    <div class="comoEstaDia">
+                        <div class="primeiraParte">
+                            <div class="comoEstaCeu">
+                                <p>Imagem de Nuvem como está o céu</p>
+                            </div>
+                            <div class="temperatura">
+                                <p>Graus</p>
+                            </div>
+                        </div>
+                        <div class="segundaParte">
+                            <div class="comoEstaCeuEscrito">
+                                <p>Como o céu está por escrito</p>
+                            </div>
+                            <div class="informacoesAdicionais">
+                                <div class="velocidadeVentos">
+                                    <img src="" alt="Vento">
+                                    <p>Velocidade que o vento está</p>
+                                </div>
+                                <div class="precipitacao">
+                                    <img src="" alt="Gotas de água">
+                                    <p>Quantidade de chuva por regiao</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="finalzinhoPagina">
+                    <div class="fraseSobreDia">
+                        <p>Frase de ideia do que fazer no dia</p>
+                    </div>
+                </div>
+                <div class="finalPagina">
+                    <div class="titulo">
+                        <p>Próximos dias</p>
+                    </div>
+                    <div class="proximosDias">
+                        <div class="primeiroDia">
+                            <div class="informacoesDiaUm">
+                                <div class="diaDaSemana"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
 </html>
